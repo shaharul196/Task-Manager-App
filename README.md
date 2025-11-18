@@ -40,16 +40,16 @@ A full-featured task management application built with Flutter, featuring user a
   </tr>
   <tr>
     <td>
-      <img src="ScreenShots/S7.png" width="200" alt="Add New Task"/><br/>
+      <img src="screenshots/S_7.png" width="200" alt="Add New Task"/><br/>
       <em>Add New Task</em>
     </td>
     <td>
-      <img src="ScreenShots/S8.png" width="200" alt="Task List View"/><br/>
-      <em>Task List View</em>
+      <img src="screenshots/S_8.png" width="200" alt="Progress Status"/><br/>
+      <em>Progress Status</em>
     </td>
     <td>
-      <img src="ScreenShots/S9.png" width="200" alt="Status Options"/><br/>
-      <em>Status Options</em>
+      <img src="screenshots/S_6.png" width="200" alt="Task List View"/><br/>
+      <em>Task List View</em>
     </td>
   </tr>
   <tr>
