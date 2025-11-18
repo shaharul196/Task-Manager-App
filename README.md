@@ -16,26 +16,26 @@ A full-featured task management application built with Flutter, featuring user a
       <em>Login Screen</em>
     </td>
     <td>
-      <img src="ScreenShots/S2.png" width="200" alt="Sign Up Screen"/><br/>
+      <img src="screenshots/S_2.png" width="200" alt="Sign Up Screen"/><br/>
       <em>Sign Up Screen</em>
     </td>
     <td>
-      <img src="ScreenShots/S3.png" width="200" alt="Email Verification"/><br/>
+      <img src="screenshots/S_3.png" width="200" alt="Email Verification"/><br/>
       <em>Email Verification</em>
     </td>
   </tr>
   <tr>
     <td>
-      <img src="ScreenShots/S4.png" width="200" alt="PIN Verification"/><br/>
+      <img src="screenshots/S_4.png" width="200" alt="PIN Verification"/><br/>
       <em>PIN Verification</em>
     </td>
     <td>
-      <img src="ScreenShots/S5.png" width="200" alt="Password Setup"/><br/>
-      <em>Password Setup</em>
+      <img src="screenshots/S_5.png" width="200" alt="New Password Setup"/><br/>
+      <em>New Password Setup</em>
     </td>
     <td>
-      <img src="ScreenShots/S6.png" width="200" alt="Task Dashboard"/><br/>
-      <em>Task Dashboard</em>
+      <img src="screenshots/S_12.png" width="200" alt="Status Options"/><br/>
+      <em>Status Options</em>
     </td>
   </tr>
   <tr>
