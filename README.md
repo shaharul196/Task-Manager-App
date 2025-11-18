@@ -12,7 +12,7 @@ A full-featured task management application built with Flutter, featuring user a
   </tr>
   <tr>
     <td>
-      <img src="Screenshot1.png" width="200" alt="Login Screen"/><br/>
+      <img src="screenshots/S_1.png" width="200" alt="Login Screen"/><br/>
       <em>Login Screen</em>
     </td>
     <td>
