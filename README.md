@@ -4,6 +4,69 @@ A full-featured task management application built with Flutter, featuring user a
 
 ## 📱 Screenshots
 
+<table>
+  <tr>
+    <td align="center"><strong>Authentication Flow</strong></td>
+    <td align="center"><strong>Task Management</strong></td>
+    <td align="center"><strong>Status Updates</strong></td>
+  </tr>
+  <tr>
+    <td>
+      <img src="Screenshot1.png" width="200" alt="Login Screen"/><br/>
+      <em>Login Screen</em>
+    </td>
+    <td>
+      <img src="ScreenShots/S2.png" width="200" alt="Sign Up Screen"/><br/>
+      <em>Sign Up Screen</em>
+    </td>
+    <td>
+      <img src="ScreenShots/S3.png" width="200" alt="Email Verification"/><br/>
+      <em>Email Verification</em>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="ScreenShots/S4.png" width="200" alt="PIN Verification"/><br/>
+      <em>PIN Verification</em>
+    </td>
+    <td>
+      <img src="ScreenShots/S5.png" width="200" alt="Password Setup"/><br/>
+      <em>Password Setup</em>
+    </td>
+    <td>
+      <img src="ScreenShots/S6.png" width="200" alt="Task Dashboard"/><br/>
+      <em>Task Dashboard</em>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="ScreenShots/S7.png" width="200" alt="Add New Task"/><br/>
+      <em>Add New Task</em>
+    </td>
+    <td>
+      <img src="ScreenShots/S8.png" width="200" alt="Task List View"/><br/>
+      <em>Task List View</em>
+    </td>
+    <td>
+      <img src="ScreenShots/S9.png" width="200" alt="Status Options"/><br/>
+      <em>Status Options</em>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="ScreenShots/S10.png" width="200" alt="In Progress"/><br/>
+      <em>In Progress Status</em>
+    </td>
+    <td>
+      <img src="ScreenShots/S11.png" width="200" alt="Completed Task"/><br/>
+      <em>Completed Task</em>
+    </td>
+    <td>
+      <img src="ScreenShots/S12.png" width="200" alt="Cancelled Task"/><br/>
+      <em>Cancelled Task</em>
+    </td>
+  </tr>
+</table>
 
 ## ✨ Features
 
