@@ -31,3 +31,46 @@ A full-featured task management application built with Flutter, featuring user a
 - **Real-time Updates** - Instant task status changes
 - **User-friendly Navigation** - Smooth transitions and interactions
 - **Professional Styling** - Consistent color scheme and typography
+
+- ## 📁 Project Structure
+
+```
+task_manager_app/
+├── lib/
+│   ├── main.dart                 # App entry point
+│   ├── data/                     # Data-related files
+│   │   ├── models/               # Data models
+│   │   │   ├── task_status_count_model.dart
+│   │   │   ├── task_model.dart
+│   │   │   └── user_model.dart
+│   │   ├── service/              # Service-related files
+│   │   │   ├── network_caller.dart
+│   │   │   └── urls.dart
+│   ├── ui/                       # UI-related files
+│   │   ├── controller/           # Controller files
+│   │   │   └── auth_controller.dart
+│   │   ├── screens/              # UI screens
+│   │   │   ├── Forgot Password Screens/
+│   │   │   │   ├── email_verification_screen.dart
+│   │   │   │   ├── pin_verification_screen.dart
+│   │   │   │   └── set_password_screen.dart
+│   │   │   ├── add_task_screen.dart
+│   │   │   ├── cancelled_task_list.dart
+│   │   │   ├── completed_task_list.dart
+│   │   │   ├── home_screen.dart
+│   │   │   ├── new_task_screen.dart
+│   │   │   ├── progress_task_screen.dart
+│   │   │   ├── sign_in_screen.dart
+│   │   │   ├── sign_up_screen.dart
+│   │   │   ├── splash_screen.dart
+│   │   │   └── update_profile_screen.dart
+│   │   ├── widgets/              # Reusable widgets
+│   │   │   ├── screen_background.dart
+│   │   │   ├── snack_bar_message.dart
+│   │   │   ├── task_app_bar.dart
+│   │   │   ├── task_card.dart
+│   │   │   └── task_summary_card.dart
+│   ├── utils/                    # Utility files
+│   │   └── assets_path.dart
+├── assets/                       # Assets like images and fonts
+└── pubspec.yaml                 # Dependencies
