@@ -99,41 +99,48 @@ A full-featured task management application built with Flutter, featuring user a
 
 ```
 task_manager_app/
-├── lib/
-│   ├── main.dart                 # App entry point
-│   ├── data/                     # Data-related files
-│   │   ├── models/               # Data models
-│   │   │   ├── task_status_count_model.dart
-│   │   │   ├── task_model.dart
-│   │   │   └── user_model.dart
-│   │   ├── service/              # Service-related files
-│   │   │   ├── network_caller.dart
-│   │   │   └── urls.dart
-│   ├── ui/                       # UI-related files
-│   │   ├── controller/           # Controller files
-│   │   │   └── auth_controller.dart
-│   │   ├── screens/              # UI screens
-│   │   │   ├── Forgot Password Screens/
-│   │   │   │   ├── email_verification_screen.dart
-│   │   │   │   ├── pin_verification_screen.dart
-│   │   │   │   └── set_password_screen.dart
-│   │   │   ├── add_task_screen.dart
-│   │   │   ├── cancelled_task_list.dart
-│   │   │   ├── completed_task_list.dart
-│   │   │   ├── home_screen.dart
-│   │   │   ├── new_task_screen.dart
-│   │   │   ├── progress_task_screen.dart
-│   │   │   ├── sign_in_screen.dart
-│   │   │   ├── sign_up_screen.dart
-│   │   │   ├── splash_screen.dart
-│   │   │   └── update_profile_screen.dart
-│   │   ├── widgets/              # Reusable widgets
-│   │   │   ├── screen_background.dart
-│   │   │   ├── snack_bar_message.dart
-│   │   │   ├── task_app_bar.dart
-│   │   │   ├── task_card.dart
-│   │   │   └── task_summary_card.dart
-│   ├── utils/                    # Utility files
-│   │   └── assets_path.dart
-├── assets/                       # Assets like images and fonts
-└── pubspec.yaml                 # Dependencies
+├───lib
+│   │   app.dart
+│   │   main.dart
+│   │
+│   ├───data
+│   │   │   urls.dart
+│   │   │
+│   │   ├───models
+│   │   │       reset_model.dart
+│   │   │       task_model.dart
+│   │   │       task_status_count_model.dart
+│   │   │       user_model.dart
+│   │   │
+│   │   └───service
+│   │           network_caller.dart
+│   │
+│   └───ui
+│       ├───controllers
+│       │       auth_controller.dart
+│       │
+│       ├───screens
+│       │       add_new_task_screen.dart
+│       │       cancelled_task_list_screen.dart
+│       │       change_password.dart
+│       │       completed_task_list_screen.dart
+│       │       forgot_password_email_screen.dart
+│       │       main_navigation_bar_screen.dart
+│       │       new_task_list_screen.dart
+│       │       pin_varification_screen.dart
+│       │       progress_task_list_screen.dart
+│       │       sign_in_screen.dart
+│       │       sign_up_screen.dart
+│       │       splash_screen.dart
+│       │       update_profile_screen.dart
+│       │
+│       ├───utils
+│       │       asset_paths.dart
+│       │
+│       └───widget
+│               centered_circular_progress_indicator.dart
+│               screen_background.dart
+│               snackbar_massage.dart
+│               task_card.dart
+│               task_count_summary_card.dart
+│               tm_app_bar.dart
